@@ -11,6 +11,6 @@ int main()
             max = array[num];
         }
     }
-    cout << max;
+    cout << max << endl;
     return 0;
 }
