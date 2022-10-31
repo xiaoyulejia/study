@@ -5,7 +5,7 @@ int main()
     // const修饰指针 - 常亮指针
     //特点:指针的指向可以修改,但是指针指向的值不可以修改
     int a = 10;
-    int b = 10;
+    int b = 20;
     const int *p = &a;
     cout << *p << endl;
     // *p = 20 这句话就是错的
@@ -14,7 +14,7 @@ int main()
     // const修饰常量 - 指针常量
     //特点:指针的指向不可以修改,但是指针指向的值可以修改
     int a = 10;
-    int b = 10;
+    int b = 20;
     int *const p = &a;
     // *p = 20 这个就可以
     // p = &b  这句话就是错的

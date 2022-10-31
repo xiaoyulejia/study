@@ -2,9 +2,9 @@
 using namespace std;
 int main()
 {
-    int i,j,m,n;
-    i=8;
-    j=10;
-    m=++i+j++;
+    for (int i = 0; i < 10; i++)
+    {
+        cout << i << endl;
+    }
     return 0;
 }

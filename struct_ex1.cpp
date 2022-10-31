@@ -47,8 +47,10 @@ void printinfo(struct teacher tarr[], int len, int student_number)
 
 int main()
 {
+    // int student_number;
     int teacher_number = 3;
     // int student_number = 5;
+    // const int cin >> student_number;
     struct teacher tarr[teacher_number];
     int len = sizeof(tarr) / sizeof(tarr[0]);
     allocatespace(tarr, len, student_number);

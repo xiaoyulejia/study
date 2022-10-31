@@ -10,8 +10,8 @@ int main()
     int b2 = 20;
     cout << a2 % b2 << endl;
 
-    int a3 = -10;
-    int b3 = 3;
+    int a3 = -9;
+    int b3 = 2;
     cout << a3 % b3 << endl;
 
 
