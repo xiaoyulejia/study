@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 using namespace std;
-#define max 1000
+const int max_1 = 1000;
 
 void showmenu()
 {
@@ -25,9 +25,24 @@ struct people
 
 struct addressbook
 {
-    struct people personarray[max];
+    struct people personarray[max_1];
     int m_size;
 };
+
+void addperson(addressbook *abs)
+{
+    if (abs->m_size == max_1)
+    {
+        cout << "Your addrress book is full" << endl;
+        return;
+    }
+    else
+    {
+        string name;
+        cout << "Please type name:"<< endl;
+        cin >> name;
+    }
+}
 
 int main()
 {
@@ -42,6 +57,7 @@ int main()
         switch (select)
         {
         case 1: //添加联系人
+            addperson(&abs);
             break;
         case 2: //显示联系人
             break;
