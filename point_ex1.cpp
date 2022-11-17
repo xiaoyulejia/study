@@ -27,6 +27,7 @@ void printarray(int *arr, int len)
 int main()
 {
     int arr[] = {4, 3, 6, 9, 1, 2, 10, 8, 7, 5};
+    cout << arr << endl;
     int len = sizeof(arr) / sizeof(arr[0]);
     bobblesort(arr, len);
     printarray(arr, len);

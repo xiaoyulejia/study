@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-    // const修饰指针 - 常亮指针
+    // const修饰指针 - 常量指针
     //特点:指针的指向可以修改,但是指针指向的值不可以修改
     int a = 10;
     int b = 20;
